@@ -1,7 +1,7 @@
-FROM php:7-alpine
+FROM php:8.1-alpine
 
 # RUN apt update 
-COPY --from=composer:latest /usr/local/bin/composer /usr/local/bin/composer
+COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 COPY ./ /var/www
 
 
@@ -14,4 +14,4 @@ COPY ./ /var/www
 
 WORKDIR /var/www/
 
-RUN composer update
+# RUN composer update
