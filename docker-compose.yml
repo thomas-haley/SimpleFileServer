@@ -16,3 +16,4 @@ services:
         volumes:
             - .:/var/www
             - logs:/var/www/logs
+            - ~/Downloads/Archipelago_0.5.1_linux-x86_64/Archipelago/output:/var/www/public/downloadable_files
