@@ -12,6 +12,6 @@ COPY ./ /var/www
 # RUN php -r "unlink('composer-setup.php');"
 
 
-
+WORKDIR /var/www/
 
 RUN composer install
