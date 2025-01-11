@@ -14,4 +14,4 @@ COPY ./ /var/www
 
 WORKDIR /var/www/
 
-RUN composer install
+RUN composer update
