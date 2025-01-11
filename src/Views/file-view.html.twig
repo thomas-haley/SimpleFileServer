@@ -1,0 +1,7 @@
+<script src="assets/js/file-view.js"></script>
+<link rel="stylesheet" href="assets/style/file-view.css">
+<div class="file-view-div">
+{% for index, file in files %}
+<a href="/download?file={{index}}">{{file}}</a>
+{% endfor %}
+</div>

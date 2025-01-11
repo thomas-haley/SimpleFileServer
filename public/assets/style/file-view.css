@@ -1,0 +1,11 @@
+.file-view-div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+.file-view-div a{
+    margin: 8px 0px;
+}
