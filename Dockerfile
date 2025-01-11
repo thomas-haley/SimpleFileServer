@@ -1,6 +1,6 @@
 FROM php:7-alpine
 
-RUN sudo apt update 
+RUN apt update 
 COPY ./ /var/www
 
 
